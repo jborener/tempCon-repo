@@ -1,11 +1,13 @@
 
 def toCelsius(fah):
         cel = (fah - 32) * 5/9
-        return cel
+        kel = cel + 273.15
+        return cel,kel
 
 def toFahrenheit(cel):
         fah = cel * 9/5 + 32
-        return fah
+        kel = cel + 273.15
+        return fah,kel
 
 def main():
         for temp in range(32,212+30,30):
