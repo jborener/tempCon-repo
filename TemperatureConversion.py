@@ -6,7 +6,7 @@ import temperature as temp
 def main():
         again = 'y'
         while again.lower()=='y':
-                print("\n\nMENU\n1. Fahrenheit to Celsius and Kelvin\n2. Celsius to Fahreheit and Kelvin\n")
+                print("\n\nMENU\n1. Fahrenheit to Celsius\n2. Celsius to Fahreheit\n")
                 sel = int(input("Enter a menu option: "))
 
                 if sel == 1:
